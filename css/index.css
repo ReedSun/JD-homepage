@@ -161,3 +161,70 @@ a {
 	width: 190px;
 	height: 40px;
 }
+.fs_col1, .fs_col2 {
+	float: left;
+}
+.fs_col3 {
+	float: right;
+	margin-left: 10px;
+	background: #fff;
+	width: 190px;
+	height: 100%;
+}
+.fs_col1 {
+	margin-right: 10px;	
+}
+#fs .cate_menu {
+	padding: 15px 0;
+	width: 190px;
+	background: #6e6568;
+	/*color: #fff;*/
+}
+#fs .cate_item {
+	padding-left: 12px;
+	height: 30px;
+	line-height: 30px;
+}
+#fs .cate_item a {
+	color: white;
+	font-size: 14px;
+}
+#fs .cate_item span {
+	color: white;
+	font-size: 12px;
+}
+#fs .cate_item a:hover {
+	color: #f81623;
+}
+#fs .cate_item:hover {
+	background: #999395;
+}
+.fs_col2 .carousel {
+	width: 790px;
+	height: 340px;
+	background: pink;
+	margin-bottom: 10px;
+}
+.fs_col2 .carousel_extend {
+	margin-left: -10px;
+}
+.fs_col2 .carousel_extend>li {
+	float: left;
+	margin-left: 10px;
+}
+.fs_col3 .user {
+	padding: 0 10px;
+	height: 115px;
+	border-bottom: 1px solid #e6e6e6;
+}
+.fs_col3 .user_info {
+	position: relative;
+	padding: 15px 0 15px 60px;
+	height: 45px;
+}
+.fs_col3 .user_info img {
+	position: absolute;
+	height: 45px;
+	width: 45px;
+	border-radius: 23px;
+}
