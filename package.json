@@ -1,0 +1,23 @@
+{
+  "name": "jd-homepage",
+  "version": "1.0.0",
+  "description": "仿京东风格的模拟电商首页",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ReedSun/JD-homepage.git"
+  },
+  "author": "ReedSun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ReedSun/JD-homepage/issues"
+  },
+  "homepage": "https://github.com/ReedSun/JD-homepage#readme",
+  "devDependencies": {
+    "jquery": "^3.1.1",
+    "webpack": "^2.2.1"
+  }
+}
