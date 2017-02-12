@@ -1,0 +1,57 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+.layout {
+	width: 1190px;
+	margin: 0 auto;
+}
+.clear:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+#shortcut {
+	background: #e3e4e5;
+}
+#shortcut .h_28 {
+	display: inline-block;
+	line-height: 28px;
+	/*height: 28px;*/
+	color: #999;
+	padding-left: 7px;
+	font-size: 12px;
+}
+#shortcut .c_r {
+	color: #c81632;
+}
+#shortcut a:hover {
+	color: #c81632;
+}
+#shortcut .spacer {
+	overflow: hidden;
+	margin: 11px 5px 0;
+	width: 1px;
+	height: 10px;
+	background: #ccc;
+}
+#shortcut .place_choose {
+	margin-left: 200px;
+	float: left;
+}
+#shortcut .place_choose>span {
+}
+.shortcut-nav {
+	float: right;
+	margin-top: -3px;
+}
+.shortcut-nav>li {
+	display: inline-block;
+}
