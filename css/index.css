@@ -15,6 +15,9 @@ li {
 a {
 	text-decoration: none;
 }
+i {
+	font-style: normal;
+}
 .layout {
 	width: 1190px;
 	margin: 0 auto;
@@ -351,6 +354,9 @@ a {
 .fs_col3 .service_item .baitiao {
     background-position: -44px 0;
 }
+.fs_col3 .service_item a span:hover {
+	color: #c81623;
+}
 .fs_col3 .service span {
 	line-height: 22px;
 	border-top: 2px solid #fff;
@@ -473,4 +479,76 @@ a {
 }
 #seckill .spilt .start {
 	margin-bottom: 4px;
+}
+.seckill_content {
+	padding: 12px 0 13px;
+	background: #fff;
+}
+.seckill_content_list_wrap {
+	float: left;
+}
+.seckill_content_item {
+	float: left;
+	width: 200px;
+	padding: 0 14px 0 15px;
+	border-right: 1px solid #e7e7e7;
+}
+.seckill_content_item .pic {
+	text-align: center;
+	position: relative;
+}
+.seckill_content_item .tag {
+	position: absolute;
+	top: 0;
+	left: 0;
+	text-align: center;
+	background: url(../img/hd_sprites.png);
+	background-size: 218px 188px;
+	background-repeat: no-repeat;
+	background-position: -54px -40px;
+	width: 30px;
+	height: 40px;
+}
+.seckill_content_item .tag>span {
+	display: inline-block;
+	margin-top: 8px;
+	color: #fff;
+}
+.seckill_content .pic img {
+	margin: 17px 0;
+}
+.seckill_content .desp {
+	color: #999;
+}
+.seckill_content .desp:hover {
+	color: #c81623;
+}
+.seckill_content .price {
+	margin-top: 3px;
+	font-size: 0px;
+}
+.seckill_content .now {
+	font-weight: 700;
+	margin-right: 8px;
+}
+.seckill_content .price i {
+	font-size: 12px;
+	font-weight: 300;
+	margin-right: 3px;
+	font-family: arial;
+	color: #f10214;
+}
+.seckill_content .now>span {
+	color: #f10214;	
+	font-size: 18px;
+}
+.seckill_content .pre i {
+	color: #999;
+}
+.seckill_content .pre>span {
+	text-decoration: line-through;
+	font-size: 12px;
+}
+.seckill_ad {
+	margin-right: 10px;
 }
