@@ -368,7 +368,7 @@ i {
 .fs_col3 .service_item .baitiao {
     background-position: -44px 0;
 }
-.fs_col3 .service_item a span:hover {
+.fs_col3 .service_item a:hover span {
 	color: #c81623;
 }
 .fs_col3 .service span {
@@ -688,6 +688,7 @@ i {
 }
 #fbt {
 	height: 444px;
+	margin-bottom: 30px;
 }
 #fbt .box {
 	float: left;
@@ -914,4 +915,133 @@ i {
 }
 #fbt .top_list_item:hover p {
 	color: #c81623;
+}
+#rec {
+	margin-bottom: 30px;
+	background: #e0e0e0;
+}
+.rec_item {
+	float: left;
+}
+.rec_item img {
+	transition: opacity 0.2s;
+}
+.rec_item img:hover {
+	opacity: 0.4;
+}
+#footer {
+	background: #eaeaea;
+}
+#footer .service {
+	padding: 30px 0;
+	border-bottom: 1px solid #dedede;
+}
+#footer .service_item {
+	width: 225px;
+	float: left;
+	position: relative;
+	margin: 0 36px;
+	padding-left: 45px;
+}
+#footer .service_item h5 {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 36px;
+	height: 42px;
+	background: url(../img/ico_service.png);
+}
+#footer .service_item p {
+	height: 42px;
+	line-height: 42px;
+	font-size: 18px;
+	font-weight: 700;
+	color: #444;
+}
+#footer .service_item:nth-child(1) h5 {
+	background-position: 0 0;
+}
+#footer .service_item:nth-child(2) h5 {
+	background-position: 0 -43px;
+}
+#footer .service_item:nth-child(3) h5 {
+	background-position: 0 -86px;
+}
+#footer .service_item:nth-child(4) h5 {
+	background-position: 0 -129px;
+}
+#footer .help a:hover {
+	color: #c81623;
+}
+#footer .help {
+	padding: 20px 0;
+}
+#footer .help>ul {
+	float: left;
+}
+#footer .help_item {
+	float: left;
+	width: 198px;
+	line-height: 22px;
+}
+#footer .help_item>h5 {
+	margin-bottom: 5px;
+	font-size: 14px;
+}
+#footer .help_cover {
+	float: right;
+	width: 200px;
+	background: url(../img/ico_footer.png);
+}
+#footer .help_cover_tit {
+	margin-bottom: 15px;
+	font-size: 14px;
+	text-align: center;
+}
+#footer .help_cover {
+	padding: 0 10px;
+}
+#footer .help_cover_more {
+	text-align: right;
+}
+#footer .copyright {
+	padding: 15px 0;
+	border-top: 1px solid #e1e1e1;
+	text-align: center;
+}
+.footer_spilt {
+	margin: 0 10px;
+	color: #ccc;
+}
+#footer .cr_info {
+	padding: 10px 0;
+	line-height: 22px;
+}
+#footer .cr_info a,#footer .cr_info span {
+	color: #999;
+}
+#footer .cr_other>a {
+	display: inline-block;
+	margin: 0 3px;
+	width: 103px;
+	height: 32px;
+	background: url("../img/ico_footer.png");
+}
+#footer .cr_other>a:nth-child(1) {
+	background-position: 0 -151px;
+}
+#footer .cr_other>a:nth-child(2) {
+	background-position: -104px -151px;
+}
+#footer .cr_other>a:nth-child(3) {
+	background-position: 0 -184px;
+}
+#footer .cr_other>a:nth-child(4) {
+	background-position: -104px -184px;
+}
+#footer .cr_other>a:nth-child(5) {
+	background-position: 0 -217px;
+}
+#footer .cr_other>a:nth-child(6) {
+	background-position: -104px -217px;
 }
