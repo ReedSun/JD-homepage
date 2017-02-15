@@ -40,9 +40,10 @@ i {
 }
 #shortcut .h_28 {
 	display: inline-block;
-	line-height: 28px;
+	line-height: 26px;
 	color: #999;
 	padding: 0 7px;
+	border: 1px solid #e2e3e4;
 }
 .c_r {
 	color: #f10215 !important;
@@ -58,7 +59,44 @@ i {
 	margin-left: 200px;
 	float: left;
 }
-#shortcut .place_choose>span {
+#shortcut .place_choose .iconfont {
+	font-size: 14px;
+    color: #f10215;
+}
+#shortcut .hover_main {
+	position: relative;
+	height: 29;
+}
+#shortcut .hover_main:hover .hover_span {
+	border: 1px solid #ccc;
+	background: white;
+	border-bottom: 1px solid white;
+	z-index: 1000;
+	position: relative;
+}
+#shortcut .hover_main:hover .hover_frame {
+	display: block;
+}
+#shortcut .hover_frame {
+	background: #fff;
+	display: none;
+	position: absolute;
+	left: 0;
+	width: 322px;
+	padding: 10px;
+	top: 27px;
+	line-height: 24px;
+	border: 1px solid #ccc;
+	box-shadow: 1px 2px 1px rgba(0,0,0,0.1);
+	background: #fff;
+	z-index: 2;
+}
+#shortcut .place_choose ul>li {
+	float: left;
+	padding: 2px 8px;
+	width: 60px;
+	cursor: pointer;
+	color: #999;
 }
 .shortcut-nav {
 	float: right;
@@ -67,6 +105,7 @@ i {
 .shortcut-nav>li {
 	display: inline-block;
 }
+
 #shortcut .dt_mobie {
 	position: relative;
 }
