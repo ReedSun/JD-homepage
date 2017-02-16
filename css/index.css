@@ -45,6 +45,9 @@ i {
 	padding: 0 7px;
 	border: 1px solid #e2e3e4;
 }
+#shortcut a {
+	color: #999;
+}
 .c_r {
 	color: #f10215 !important;
 }
@@ -83,7 +86,7 @@ i {
 	position: absolute;
 	left: 0;
 	width: 322px;
-	padding: 10px;
+/*	padding: 10px;*/
 	top: 27px;
 	line-height: 24px;
 	border: 1px solid #ccc;
@@ -98,6 +101,19 @@ i {
 	cursor: pointer;
 	color: #999;
 }
+#shortcut .hover_content {
+	padding: 10px 0 10px 15px;
+}
+#shortcut .hover_content:nth-child(2) {
+	border-top: 1px solid #f1f1f1;
+}
+#shortcut .hover_content .col {
+	float: left;
+	width: 126px;
+}
+#shortcut .hover_content .item_tit {
+	font-weight: 700;
+}
 .shortcut-nav {
 	float: right;
 	margin-top: -3px;
@@ -105,7 +121,13 @@ i {
 .shortcut-nav>li {
 	display: inline-block;
 }
-
+#shortcut .c_s {
+	width: 170px;
+	left: -106px;
+}
+#shortcut .c_s .col {
+	width: 70px;
+}
 #shortcut .dt_mobie {
 	position: relative;
 }
@@ -113,6 +135,84 @@ i {
 	position: absolute;
 	height: 60px;
 	width: 60px;
+}
+#shortcut .daohang {
+	left: -1044px;
+	padding: 15px 0;
+	width: 1190px;
+}
+#shortcut .daohang>.fore {
+	float: left;
+	width: 276px;
+	padding-left: 20px;
+	border-left: 1px solid #eee;
+}
+#shortcut .daohang .fore1 {
+	border-left: none;
+	width: 360px;
+}
+#shortcut .daohang .item_tit {
+	margin-bottom: 5px;
+	font-weight: 700;
+	color: #666;
+}
+#shortcut .daohang .item {
+	float: left;
+	width: 85px;
+	white-space: nowrap;
+}
+#shortcut .mobile_hover .item {
+	position: relative;
+	padding: 15px 0;
+	border-bottom: 1px solid #e7e7e7;
+}
+#shortcut .mobile_hover {
+	width: 190px;
+	left: -126px;
+}
+#shortcut .mobile_hover .QR {
+	position: absolute;
+	left: 5px;
+	top: 14px;
+	width: 76px;
+	height: 76px;
+	border: 1px solid #ccc;
+	background: #f7f7f7;
+}
+#shortcut .mobile_hover .QR img {
+	width: 70px;
+	height: 70px;
+	margin: 2px 0 0 2px;
+}
+#shortcut .mobile_hover .info {
+	margin: 0 10px 0 86px;
+}
+#shortcut .mobile_hover .info>h5 {
+	font-size: 12px;
+	line-height: 17px;
+	color: #666;
+}
+#shortcut .mobile_hover .info>.desp {
+	margin: 3px 0;
+	line-height: 14px;
+	color: #f10214;
+}
+#shortcut .mobile_hover .info>.icon>a {
+	display: block;
+	background: url(../img/mobile_icon.png);
+	float: left;
+	margin-right: 2px;
+	width: 25px;
+	height: 25px;
+}
+#shortcut .mobile_hover .info>.icon>a:first-child {
+	background-position: 0 0;
+}
+#shortcut .mobile_hover .info>.icon>a:nth-child(2) {
+	background-position: 0 -26px;
+}
+#shortcut .mobile_hover .info>.icon>a:nth-child(2) {
+	background-position: 0 -52px;
 }
 #header {
 	position: relative;
