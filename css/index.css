@@ -351,11 +351,80 @@ i {
 	background: #999395;
 }
 .fs_col2 .carousel {
+	position: relative;
 	width: 790px;
 	height: 340px;
-	background: pink;
 	margin-bottom: 10px;
 }
+.fs_col2 .carousel .pic>li {
+	display: none;
+	position: absolute;
+}
+.fs_col2 .carousel .pic>li:nth-child(1) {
+	display: block;
+}
+.fs_col2 .carousel:hover .arrow>li {
+	opacity: 1;
+}
+.fs_col2 .carousel .arrow>li {
+	opacity: 0;
+	position: absolute;
+	z-index: 2;
+	top: 50%;
+	width: 30px;
+	height: 60px;
+	margin-top: -30px;
+	line-height: 60px;
+	text-align: center;
+	background: rgba(0,0,0,0.1);
+	color: white;
+	cursor: pointer;
+}
+.fs_col2 .carousel .arrow>li:hover {
+	background: rgba(0,0,0,0.6);
+}
+.fs_col2 .carousel .arrow>.left {
+	left: 0;
+}
+.fs_col2 .carousel .arrow>.right {
+	right: 0;
+}
+.fs_col2 .carousel .nav {
+	position: absolute;
+	z-index: 2;
+	left: 50%;
+	bottom: 20px;
+	font-size: 0;
+	padding: 4px 8px;
+	background: hsla(0,0%,100%,0.3);
+	border-radius: 12px;
+	margin-left: -91px;
+}
+.fs_col2 .carousel .nav>li {
+	display: inline-block;
+	margin-left: 10px;
+	width: 12px;
+	height: 12px;
+	border-radius: 100%;
+	background: #fff;
+	cursor: pointer;
+}
+.fs_col2 .carousel .nav>.active {
+	background: #db192a;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 .fs_col2 .carousel_extend {
 	margin-left: -10px;
 }

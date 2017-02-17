@@ -6,3 +6,5 @@ var Tab3 = require("./tab3.js");
 new Tab3($(".place_choose"))
 var TimeGo = require("./time-go.js");
 new TimeGo($(".seckill_clock"))
+var Carousel = require("./carousel.js");
+new Carousel($(".carousel"));
