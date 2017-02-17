@@ -261,6 +261,7 @@ i {
 	left: 500px;
 }
 .header_w .search_m .form button>i{
+	font-size: 24px;
 	color: #fff;
 }
 .header_w .search_m .shopping_car {
@@ -274,7 +275,8 @@ i {
 	border: 1px solid #e3e4e5;
 	background: white;
 }
-.header_w .search_m .shopping_car a {
+.header_w .search_m .shopping_car a,
+.header_w .search_m .shopping_car i {
 	color: #f10214;
 }
 .header_w .hot_word {
@@ -412,19 +414,6 @@ i {
 .fs_col2 .carousel .nav>.active {
 	background: #db192a;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 .fs_col2 .carousel_extend {
 	margin-left: -10px;
 }
