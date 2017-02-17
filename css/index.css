@@ -66,6 +66,10 @@ i {
 	font-size: 14px;
     color: #f10215;
 }
+#shortcut .place_choose .active {
+	background: #f10215;
+	color: #fff;
+}
 #shortcut .hover_main {
 	position: relative;
 	height: 29;
@@ -96,10 +100,11 @@ i {
 }
 #shortcut .place_choose ul>li {
 	float: left;
-	padding: 2px 8px;
-	width: 60px;
+	margin: 2px 8px;
+	width: 44px;
 	cursor: pointer;
 	color: #999;
+	text-align: center;
 }
 #shortcut .hover_content {
 	padding: 10px 0 10px 15px;
@@ -1186,6 +1191,7 @@ i {
 	background-position: -104px -217px;
 }
 #fs .tab_show {
+	display: none;
 	position: absolute;
 	left: 190px;
 	top: 0;
