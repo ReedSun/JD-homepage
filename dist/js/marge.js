@@ -10338,6 +10338,8 @@ var Tab2 = __webpack_require__(3);
 new Tab2($(".fs_col3>.news"));
 var Tab3 = __webpack_require__(4);
 new Tab3($(".place_choose"))
+var Tab4 = __webpack_require__(7);
+new Tab4($(".top_bd"))
 var TimeGo = __webpack_require__(5);
 new TimeGo($(".seckill_clock"))
 var Carousel = __webpack_require__(6);
@@ -10450,6 +10452,18 @@ TimeGo.prototype.auto = function(){
 				}
 			}
 		}
+		s=s+"";
+		m=m+"";
+		h=h+"";
+		if (s.length === 1) {
+			s = "0" + s;
+		}
+		if (m.length === 1) {
+			m = "0" + m;
+		}
+		if (h.length === 1) {
+			h = "0" + h;
+		}
 		_this.$h.text(h)
 		_this.$m.text(m)
 		_this.$s.text(s)
@@ -10527,6 +10541,35 @@ Carousel.prototype.auto = function(){
 }
 
 module.exports = Carousel;
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
+
+/***/ }),
+/* 7 */
+/***/ (function(module, exports, __webpack_require__) {
+
+/* WEBPACK VAR INJECTION */(function($) {function Tab4($node) {
+	this.$node = $node
+	this.init();
+	this.bind();
+}
+Tab4.prototype.init = function(){
+	this.$trigger = this.$node.find(".top_tab_hd>a");
+	this.$response = this.$node.find(".top_tab_bd_item");
+	this.$skate = this.$node.find(".top_tab_active");
+}
+
+Tab4.prototype.bind = function() {
+	var _this = this;
+	this.$trigger.on("mouseenter", function(e){
+		var index = $(e.target).index();
+		_this.$response.removeClass("active");
+		_this.$response.eq(index).addClass("active");
+		var str = "translateX(" + (index*78) +"px)"
+		_this.$skate.css("transform", str)
+	}) 
+}
+
+module.exports = Tab4
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ })

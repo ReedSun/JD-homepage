@@ -31,6 +31,18 @@ TimeGo.prototype.auto = function(){
 				}
 			}
 		}
+		s=s+"";
+		m=m+"";
+		h=h+"";
+		if (s.length === 1) {
+			s = "0" + s;
+		}
+		if (m.length === 1) {
+			m = "0" + m;
+		}
+		if (h.length === 1) {
+			h = "0" + h;
+		}
 		_this.$h.text(h)
 		_this.$m.text(m)
 		_this.$s.text(s)
