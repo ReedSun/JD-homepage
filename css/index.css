@@ -1336,3 +1336,8 @@ i {
 	height: 134px;
 	background: #e7e7e7;
 }
+#hidden {
+	width: 0px;
+	height: 0px;
+	overflow: hidden;
+}
